@@ -1,0 +1,87 @@
+.section {
+  color: $dark-black;
+
+  h1,h2,h3,h4,h5,h6 {
+    margin-top: 2em;
+  }
+  hr {
+    border: .2em solid $neorange;
+    border-radius: 90px;
+    display: block;
+    width: 90px;
+    margin-top: .2em;
+    margin-bottom: 2em;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  .content {
+    margin: 5vw 4vw;
+
+    .box {
+      // background-color: red;
+      margin: center;
+      color: $black;
+      height: 40vh;
+      // width: 80vw;
+      box-shadow: 0px 0px 7px $dark-blur;
+
+      .sub-box {
+        margin-left: 2em;
+        margin-right: 2em;
+      }
+
+      h1,h2,h3,h4,h5,h6 {
+        margin-bottom: .4em;
+        font-size: 1.6em;
+      }
+
+      p {
+        text-align: justify;
+      }
+
+      li {
+        font-size: 1em;
+        line-height: 2em;
+      }
+
+      a {
+        text-decoration: none;
+        color: $blue-proclub;
+      }
+
+    } // box
+
+    .box.light {
+      color: $white;
+    }
+
+    .box-bordered {
+      border: 1px solid $silver;
+      box-shadow: 0 0;
+      margin-bottom: .5em;
+
+      h1,h2,h3,h4,h5,h6 {
+        color: $blue;
+      }
+
+      h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover {
+        color: $blue-proclub;
+      }
+
+    } // box bordered
+
+    .box-gallery {
+      box-shadow: 0 0;
+    }
+
+
+  }
+
+} // section
+.section.section-lg {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}

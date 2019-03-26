@@ -1,0 +1,20 @@
+{
+  "name": "sangarTheme",
+  "description": "Modern FrontEnd Website",
+  "main": "index.html",
+  "authors": [
+    "Adzkar Fauzie"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "popper.js": "^1.12.9"
+  }
+}
