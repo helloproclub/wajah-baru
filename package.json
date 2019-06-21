@@ -1,36 +1,33 @@
 {
-  "name": "ProclubLandingPage",
-  "version": "1.0.0",
-  "description": "Proclub Landing Page",
-  "main": "index.js",
+  "name": "autumnleaves",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "history": "^4.9.0",
+    "immutable": "^4.0.0-rc.12",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.2",
+    "react-router": "^5.0.0",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "^2.1.8",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": ""
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "author": "Adzkar Fauzie",
-  "license": "ISC",
-  "bugs": {
-    "url": ""
-  },
-  "homepage": "",
-  "devDependencies": {
-    "browser-sync": "^2.23.6",
-    "del": "^3.0.0",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^5.0.0",
-    "gulp-cache": "^1.0.2",
-    "gulp-cssnano": "^2.1.2",
-    "gulp-if": "^2.0.2",
-    "gulp-imagemin": "^4.1.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.4",
-    "gulp-uglify": "^3.0.0",
-    "gulp-useref": "^3.1.4",
-    "gulp-watch": "^5.0.0",
-    "popper.js": "^1.12.9",
-    "run-sequence": "^2.2.1"
-  }
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

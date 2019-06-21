@@ -1,0 +1,45 @@
+.login_wrapper{
+	margin: auto;
+ 	width: 450px;
+ 	padding-top:150px;
+}
+
+.login_form{
+	background-color: var(--color-blue);
+	border-radius: 4px;
+	height: 300px;
+	color: #edece8;
+}
+
+.login_title{
+	text-align: center;
+	padding:  25px;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.login_inputForm{
+	padding: 10px 50px;
+	font-size: 12px;
+	font-weight: 500;
+}
+.login_inputTitle{
+
+}
+.login_inputBox{
+	
+}
+.login_buttonWrapper{
+	margin: auto;
+	margin-top: 20px;
+  	text-align: center;
+}
+.login_okButton{
+	padding: 7px;
+	font-weight: 600;
+	width: 100px;
+}
+.login_okButton:hover{
+	color: var(--color-blue);
+	background-color: var(--color-cream);
+}
