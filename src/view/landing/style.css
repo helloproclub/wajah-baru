@@ -1,0 +1,19 @@
+.bg_images {
+	height: 100vh;
+	background-image: url('/assets/images/section-1.jpg')
+}
+
+.proclub_logo {
+	margin-bottom: 20px;
+}
+
+.filter li {
+	cursor: pointer;
+}
+
+@media only screen and ( min-width: 768px ) {
+	.header_desc {
+		margin: auto;
+		width: 60%;
+	}
+}

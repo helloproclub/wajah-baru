@@ -1,7 +1,7 @@
 import React from 'react'
 import {Router, Switch, Route} from 'react-router'
-import Dashboard from './dashboard'
-import Login from './login'
+
+import Landing from './landing'
 
 function requireAuth(nextState, replace, callback) {
     let notAuth = true
@@ -23,8 +23,7 @@ function Root({history}) {
 	return(
 		<Router history={history}>
 		 	<Switch>
-                <Route path='/dashboard' component={Dashboard}/>
-            	<Route path="*" component={Login} />    
+            	<Route path="*" component={Landing} />    
    			</Switch>
        	</Router>
 		)

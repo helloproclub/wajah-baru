@@ -1,10 +1,9 @@
 import {FnsCreator} from '../global/utility'
 import {push} from 'react-router-redux'
 
-import login from './login'
 
 const specs = {
-    login
+    
 }
 
 

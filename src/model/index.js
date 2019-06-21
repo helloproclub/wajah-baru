@@ -5,10 +5,13 @@ import Action from '../action'
 import {fromJS} from 'immutable'
 import {IsArray} from '../global/utility'
 
-import login from './login'
+import landing from './landing'
 // import {createLogger} from 'redux-logger'
 // const logger = createLogger()
 
+const reducerSpecs = {
+    landing
+}
 
 function Reducer(moduleName, {initialState, events}) {
     // const {Load, Save} = Storage(name)
@@ -49,11 +52,6 @@ const ActionMiddleware = Actions => store => next => action => {
     }
 
     return Actions(...action)(store.dispatch, store.getState)
-}
-
-
-const reducerSpecs = {
-    login
 }
 
 const reducers = ReducerCreator(reducerSpecs)
