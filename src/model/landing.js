@@ -1,4 +1,5 @@
 const initialState = {
+	title: 'Welcome to Proclub',
 	menus: ["Home","About","Contact Us"],
 	desc: {
 		title: 'Proclub',

@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, {Component, useEffect} from 'react'
 import {Provider} from 'react-redux'
 import { createBrowserHistory } from 'history'
 import StoreCreator from './model'

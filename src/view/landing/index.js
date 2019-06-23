@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{ useEffect } from 'react'
 import Connect from '../connect'
 import './style.css'
 
@@ -7,7 +7,9 @@ import Works from './works'
 import Footer from './footer'
 
 const Login = (props) =>{
-	
+	useEffect(() => {
+		document.title = props.title
+	})
 	return(
 		<main>
 	     	<Header />
@@ -19,7 +21,7 @@ const Login = (props) =>{
 }
 
 const states = {
-	menus: '/landing/menus'
+	title: '/landing/title'
 }
 
 export default Connect(states) (Login)
